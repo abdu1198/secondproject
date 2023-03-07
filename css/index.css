@@ -1,0 +1,391 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 4000px;
+}
+/*--------------------- start section1------------------------- */
+.section1 {
+  height: 100vh;
+  background-image: url(../images/uhd-5k-4k-bookshelf.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.section1 .layout {
+  width: 100%;
+  height: 95vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 5%;
+}
+.section1 .layout .content {
+  width: 100%;
+  height: 50%;
+  /* background-color: aqua; */
+  position: absolute;
+  top: 35%;
+  text-align: center;
+}
+.section1 .layout .content h1 {
+  font-weight: bold;
+  color: white;
+}
+.section1 .layout .content p {
+  font-size: 30px;
+  color: white;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+  margin-left: 10rem;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: white !important;
+  margin: 2px 15px;
+}
+.navbar-light .navbar-toggler {
+  color: white !important;
+  background-color: white !important;
+  border-color: white !important;
+}
+
+/* -----------------media section1-------------------------------- */
+/* -----------------tablet-------------------------------- */
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-left: 0rem;
+  }
+  .section1 .layout {
+    top: 5%;
+  }
+  .section1 .layout .content {
+    top: 45%;
+  }
+  .section1 .layout .content h1 {
+    font-size: 25px;
+  }
+  .section1 .layout .content p {
+    font-size: 20px;
+    color: white;
+  }
+}
+/* -----------------phone-------------------------------- */
+
+@media (max-width: 425px) {
+  .navbar-brand {
+    margin-left: 0rem;
+  }
+  .section1 .layout .content h1 {
+    font-size: 25px;
+  }
+  .section1 .layout .content p {
+    font-size: 15px;
+    color: white;
+  }
+  .w-25 {
+    width: 50% !important;
+  }
+  .section1 .layout .content {
+    top: 50%;
+  }
+}
+/* -------------------------end section1---------------- */
+/*--------------------- start section2----------------- */
+.card {
+  border: none;
+}
+.section_cont h1 {
+  font-size: 20px;
+  color: gray;
+}
+.section_cont p {
+  font-size: 16px;
+  color: gray;
+}
+/*------------------- end section2--------------- */
+/*------------------- start section3--------------- */
+.section3 {
+  background-color: #f2f9f8;
+}
+.section3 h4 {
+  color: #23afb2;
+}
+.section3 h3 {
+  color: #21413c;
+  font-size: 25px;
+  margin: 25px 0px;
+}
+.section3 p {
+  color: #b5b6b6;
+}
+
+/*------------------- end section3--------------- */
+/*------------------- start section4--------------- */
+/* .section4{
+        background-color: brown;
+     } */
+
+.section4 .nav-pills .nav-link.active {
+  background-color: white;
+  border-color: black;
+  border: 2px solid black;
+}
+.section4 .nav-link {
+  color: rgb(0, 0, 0) !important;
+  margin: 2px 15px;
+}
+.section4 .row .Tleftm .Tleft h4 {
+  text-align: left !important;
+}
+.section4 .row .Tleftm .Tleft p {
+  text-align: left !important;
+}
+
+/*------------------- end section4--------------- */
+/*------------------- start section5--------------- */
+.section5 {
+  background-color: #f2f9f8;
+}
+.section5 .box {
+  background-color: white;
+  border-radius: 10%;
+  padding: 30px;
+}
+
+/*------------------- end section5--------------- */
+/*------------------- start section6--------------- */
+.test {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+/*------------------- end section6--------------- */
+/*------------------- end section4--------------- */
+/*------------------- start section8--------------- */
+
+.Portfolio {
+  background-color: #f2f9f8;
+}
+.Portfolio .p {
+  margin: 15px 0px;
+}
+.Portfolio .nav {
+  justify-content: center;
+}
+.Portfolio .nav-item {
+  background-color: white;
+  padding: 5px 0px;
+}
+.Portfolio .nav-pills .nav-link.active {
+  background-color: transparent;
+  color: #23afb2 !important;
+}
+.Portfolio .nav-link {
+  font-weight: bold;
+  color: black !important;
+}
+.Portfolio .li1 {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.Portfolio .li2 {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.Portfolio .parent {
+  width: 100%;
+  height: 300px;
+  background-color: red;
+
+  position: relative;
+}
+.Portfolio .parent1 {
+  background-image: url(../images/pexels-pixabay-60597.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Portfolio .parent2 {
+  background-image: url(../images/uhd-5k-4k-bookshelf.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Portfolio .parent3 {
+  background-image: url(../images/wallpaper-70.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Portfolio .parent4 {
+  background-image: url(../images/about-img.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Portfolio .parent5 {
+  background-image: url(../images/w0585_1s_Speckled-palm-organic-pattern-wallpaper-Speckled-Frond_Repeating-Pattern-Sample-1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Portfolio .parent6 {
+  background-image: url(../images/download.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Portfolio .parent7 {
+  background-image: url(../images/images.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Portfolio .parent8 {
+  background-image: url(../images//paper.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Portfolio .parent9 {
+  background-image: url(../images/image4.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Portfolio .parent::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 30px;
+  bottom: 30px;
+  right: 30px;
+  left: 30px;
+  transition: all 0.5s;
+  opacity: 0;
+}
+.Portfolio .parent:hover::before {
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  opacity: 1;
+}
+.Portfolio .parent .child {
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+  position: absolute;
+  transition: all 0.5s;
+  opacity: 0;
+  color: white;
+}
+.Portfolio .parent:hover .child {
+  opacity: 1;
+}
+.Portfolio .parent .child::before {
+  content: '';
+  position: absolute;
+  /* background-color: black; */
+  width: 50px;
+  height: 50px;
+  top: 40px;
+  left: 40px;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+  transition: all 0.5s;
+  opacity: 0;
+}
+.Portfolio .parent .child::after {
+  content: '';
+  position: absolute;
+  /* background-color: black; */
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 40px;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+  transition: all 0.5s;
+  opacity: 0;
+}
+.Portfolio .parent:hover .child::before {
+  top: 15px;
+  left: 15px;
+  opacity: 1;
+}
+.Portfolio .parent:hover .child::after {
+  bottom: 15px;
+  right: 15px;
+  opacity: 1;
+}
+/*------------------- end section8--------------- */
+/*------------------- start section9--------------- */
+.section9 {
+  background-color: white;
+}
+.section9 .section9_team {
+  width: 100%;
+  height: 300px;
+  background-color: #21413c;
+  background-image: url(../images/team-1.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+.section9 .section9_team .section9_team_left {
+  width: 20%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+  position: absolute;
+  left: -20%;
+}
+.section9 .section9_team:hover .section9_team_left {
+  left: 0%;
+}
+.section9 .section9_team .section9_team_bottom {
+  width: 100%;
+  height: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  transition: all 0.3s;
+}
+.section9 .section9_team:hover .section9_team_bottom {
+  height: 30%;
+}
+
+/*------------------- end section9--------------- */
+/*------------------- start section10--------------- */
+.section10 {
+  background-color: #71e4d3;
+}
+.section10 .btn-link {
+  color: black !important;
+}
+.section10 .btn-link:hover {
+  text-decoration: none !important;
+  color: #65e1c7 !important;
+}
+.section10 .card {
+  margin: 10px 0px;
+  border-radius: 10px !important;
+}
+.card-header {
+  background-color: rgb(255, 255, 255) !important;
+  border-bottom: 0px;
+}
+/*------------------- end section10--------------- */
+
+/*------------------- end section11--------------- */
+.section11 .inf {
+  background-color: yellow;
+}
+.section11 .box {
+  display: inline;
+}
+/*------------------- end section11--------------- */
+.footer1 {
+  background-color: #0c1817;
+}
